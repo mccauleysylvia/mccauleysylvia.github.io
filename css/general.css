@@ -4,15 +4,29 @@
 @-webkit-viewport { width: device-width; scale: 1; }
 @viewport { width: device-width; scale: 1; }
 
+html {
+	  font-size:100%;
+}
+.portfoliopage {  
+  background: url(../images/knitting250px.png);
+}
 
-html {  
-  background: url(../images/bloop.jpg) no-repeat center center fixed; 
-  -webkit-background-size: cover;
+.index { 
+  background: url(../images/bloop.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size:cover;
-  font-size:100%;
 }
+
+.portfolio{
+		width:94%;
+		padding:1rem;
+}
+.images {
+	text-align:center;
+}
+
 
 
 body {
@@ -45,9 +59,9 @@ ul {
 }
 
 .logo {
-	padding-top:4em;
+	padding-top:2em;
+	padding-bottom:-3em;
 	width:175px;
-	float:right;
 }
 	
 .socialmedia {
@@ -66,25 +80,30 @@ ul {
 }
 
 @media only screen and (min-width: 45em) {
-	
-	.clearfix {
-		float:right;
+
+	.text	{
+	float:right	;
 		width:50%;
+}
+
+	.portfolio {
+		width:44.5%;
 }
 
 }
 
 @media only screen and (min-width: 60em) {
 	
-	.clearfix {
+	.text {
 		font-size:107%;
 }
+
 
 }
 
 @media only screen and (min-width: 75em) {
 	
-	.clearfix {
+	.text {
 		width:35%;
 }
 	h1 {
@@ -92,11 +111,17 @@ ul {
 
 }
 
+
+	.portfolio {
+		width:23%;
+		padding:0.5rem;
+	}
+
 }
 
 @media only screen and (min-width: 90em) {
 	
-	.clearfix {
+	.text {
 		width:40%;
 		font-size:112%;
 		padding:1em;
@@ -116,7 +141,7 @@ h1 {
 
 @media only screen and (min-width: 115em) {
 	
-	.clearfix {
+	.text {
 		width:45%;
 		font-size:116%;
 }
@@ -125,7 +150,7 @@ h1 {
 
 @media only screen and (min-width: 155em) {
 	
-	.clearfix {
+	.text {
 		width:50%;
 		font-size:120%;
 		padding:1.25em;
@@ -135,9 +160,15 @@ h1 {
 
 @media only screen and (min-width: 180em) {
 	
-	.clearfix {
+	.text {
 		width:50%;
 		font-size:124%;
+}
+
+.logo {
+	width:150px;
+	padding-bottom:3rem;
+	margin-left:-1.25rem;
 }
 
 }
