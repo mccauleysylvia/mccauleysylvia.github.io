@@ -79,6 +79,10 @@ ul {
 	clear: both;
 }
 
+.footer {
+	float:right;
+}
+
 @media only screen and (min-width: 45em) {
 
 	.text	{
