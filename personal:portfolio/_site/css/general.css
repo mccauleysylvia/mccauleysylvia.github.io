@@ -6,6 +6,12 @@
 
 html {
 	  font-size:100%;
+	    background: url(../images/bloop.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size:cover;
+	  
 }
 .portfoliopage {  
   background: url(../images/knitting250px.png);
